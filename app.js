@@ -25,5 +25,9 @@ for (let prop in randomMessages) {
             break;
     }
 }
-console.log(personalMessage)
 
+function formattedMessage(messsage) {
+    let formatted = personalMessage.join('\n')
+    console.log(formatted)
+}
+formattedMessage(personalMessage)
